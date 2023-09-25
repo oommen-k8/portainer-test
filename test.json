@@ -8,21 +8,6 @@
 				"Other"
 			],
 			"description": "Htpcmanager, a front end for many htpc related applications. Hellowlol version.",
-			"env": [
-				{
-					"label": "PGID",
-					"name": "PGID",
-					"set": "1000"
-				},
-				{
-					"label": "PUID",
-					"name": "PUID",
-					"set": "1000"
-				},
-				{
-					"label": "TZ",
-					"name": "TZ",
-					"set": "America/Chicago"
 				}
 			],
 			"image": "linuxserver/htpcmanager:latest",
