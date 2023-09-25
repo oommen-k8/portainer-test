@@ -1,52 +1,4 @@
-{
-	"version": "2",
-	"templates": [
-		{
-			"category": [
-				"Video",
-				"Music",
-				"Other"
-			],
-			"description": "Htpcmanager, a front end for many htpc related applications. Hellowlol version.",
-				}
-			],
-			"image": "linuxserver/htpcmanager:latest",
-			"logo": "https://raw.githubusercontent.com/thesugarat/portainer_templates-1/master/Images/htpcmanager-icon.png",
-			"platform": "linux",
-			"ports": [
-				"8085/tcp"
-			],
-			"title": "htpcmanager",
-			"type": 1,
-			"volumes": [
-				{
-					"container": "/config"
-				}
-			]
-		},
-		{
-			"category": [
-				"Downloaders",
-				"Tools"
-			],
-			"description": "Jackett works as a proxy server it translates queries from apps like Sonarr etc into tracker-site-specific http queries and parses the html response sending results back to the requesting software.[",
-			"env": [
-				{
-					"label": "PUID",
-					"name": "PUID",
-					"set": "1000"
-				},
-				{
-					"label": "PGID",
-					"name": "PGID",
-					"set": "1000"
-				},
-				{
-					"label": "TZ",
-					"name": "TZ",
-					"set": "America/Chicago"
-				}
-			],
+
 			"image": "linuxserver/jackett:latest",
 			"logo": "https://raw.githubusercontent.com/thesugarat/portainer_templates-1/master/Images/jacket-icon.png",
 			"platform": "linux",
@@ -296,17 +248,6 @@
 			"logo": "https://raw.githubusercontent.com/thesugarat/portainer_templates-1/master/Images/transmission-icon.png",
 			"platform": "linux",
 			"ports": [
-				"9091/tcp",
-				"51413/tcp",
-				"51413/udp"
-			],
-			"title": "transmission",
-			"type": 1,
-			"volumes": [
-				{
-					"container": "/config"
-				},
-				{
 					"container": "/downloads"
 				},
 				{
