@@ -26,19 +26,14 @@
 				}
 			],
 			"image": "oommen81/xfce:latest",
-			"logo": "https://raw.githubusercontent.com/thesugarat/portainer_templates-1/master/Images/htpcmanager-icon.png",
+			"logo": "https://raw.githubusercontent.com/oommen-k8/portainer-test/master/images/picture.png",
 			"platform": "linux",
 			"ports": [
 				"6080/tcp"
+				"5901/tcp"
 			],
-			"title": "htpcmanager",
+			"title": "ubuntu-xfce-novnc",
 			"type": 1,
-			"volumes": [
-				{
-					"container": "/config"
-				}
-			]
-		},
 		{
 			"category": [
 				"Downloaders",
